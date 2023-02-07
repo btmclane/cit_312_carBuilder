@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Finders Inc</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header style="background-color: azure"><h1>Car Finders Inc.
+        <img src="carLogo.jfif" alt="logo">
+    </h1>
+    
+    </header>
+    <form id="carForm" action="#" method="get">
+<fieldset>
+    <legend>Car Builder</legend>
+        <label for="carName"
+
+        >Car Name: 
+        
+                <input
+                  type="text"
+                  id="carName"
+                  name="carName"
+                  placeholder="Car Name"
+                  size="25"
+                  required
+                  minlength="1"
+                  maxlength="60"
+                  pattern="^[A-Za-z]+$"
+                />
+                </label>
+                
+                <br><br>
+
+            <label for="manufacturer">Car Manufacturer: 
+
+                <select id="manufacturer" name="manufacturer" size="5" style="width: 100px">
+              
+                  <option value="chevy">Chevrolet</option>
+              
+                  <option value="ford">Ford</option>
+              
+                  <option value="dodge">Dodge</option>
+
+                  <option value="toyota">Toyota</option>
+
+                  <option value="honda">Honda</option>
+              
+                  <option value="porsche">Porsche</option>
+              
+                  <option value="ferrari">Ferrari</option>
+              
+                  <option value="lamborghini">Lamborghini</option>
+              
+                </select>
+              
+              </label>
+
+            <br><br>
+              <label for="carColour"
+
+    >Pick Your Car's Color: 
+
+    <input type="color" id="carColour" name="carColour" />
+
+  </label>
+  <br><br>
+  <input
+        type="checkbox"
+        id="4wd"
+        name="drive"
+        value="4wd"
+
+      /><label for="4wd">4 Wheel Drive</label><br />
+
+      <input
+        type="checkbox"
+        id="2wd"
+        name="drive"
+        value="2wd"
+
+      />
+
+      <label for="2wd">2 Wheel Drive</label>
+
+      <br />
+
+      <input
+        type="checkbox"
+        id="awd"
+        name="drive"
+        value="awd"
+
+      /><label for="awd">All Wheel Drive</label>
+      <br>
+</fieldset>
+<br><br>
+<fieldset>
+    <legend>Personal Information</legend>
+<label for="licenseId"
+
+      >8 Number Driver's License ID:
+
+      <input
+        type="number"
+        id="licenseId"
+        name="licenseId"
+        placeholder="0"
+        size="5"
+        minlength="1"
+        maxlength="8"
+        min="0"
+        max="99999999"
+        step="1"
+      />
+
+    </label>
+    <br><br>
+
+        <label for="email"
+
+        >Contact Email: 
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="xxxxxxxx@xxxxxx.com"
+          size="25"
+          required
+          minlength="1"
+          maxlength="60"
+        />
+      </label>
+    <br><br>
+
+  <label for="pickupTime"
+
+        >Car Pick-Up Time:
+
+        <input
+          type="time"
+          id="pickupTime"
+          name="pickupTime"
+        />
+
+      </label>
+    <br><br>
+    <label for="comment">
+
+        Your comments for your vehicle or pick-up:
+      
+        <textarea
+          id="comment"
+          name="comment"
+          placeholder="Comments"
+        >
+      
+        </textarea>
+      
+      </label>
+
+    <br>
+</fieldset>
+<br>
+            <input type="submit" id="process" />
+    </form>
+</body>
+</html>

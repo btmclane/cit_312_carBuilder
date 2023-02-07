@@ -1,0 +1,62 @@
+* {
+    background-color: lightyellow;
+}
+
+input,select, textarea, button {
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+    font-size: 100%;
+    
+  
+  }
+  
+  input, select, textarea, button, label {
+      box-sizing: border-box;
+    }
+  
+    input[type="text"] {
+      width: 10em;
+    }
+  
+  label {
+      display: inline-block;
+      width: 25em;
+      border: 5px dotted lightgreen;
+      background-color: bisque;
+      font-weight: bold;
+    }
+  
+    input[type="text"] {
+      border: 5px double blue;
+    }
+  
+    [required] {
+      border: 8px solid darkcyan;
+    }
+  
+  input[type="checkbox"] + label {
+    display: inline;
+  }
+  
+  fieldset {
+      position: relative;
+    }
+  
+    h1 {
+      height: 70px;
+      background-color: lightgreen;
+      text-align: center;
+      margin: 0;
+      padding: 1em;
+    }
+    h1 img {
+      width: 150px;
+      height: 80px;
+      vertical-align: middle;
+    }
+  
+    fieldset {
+      width: 400px;
+    }
+    
